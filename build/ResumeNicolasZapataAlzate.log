@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.8)  8 JAN 2026 21:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.9)  10 JAN 2026 09:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -262,38 +262,52 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 )
+(/usr/share/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty
+(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2025-01-18 L3 programming layer (loader) 
 
-! LaTeX Error: File `fontawesome5.sty' not found.
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count290
+\l__pdf_internal_box=\box53
+))
+Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
+(/usr/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
+)
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)
+(/usr/share/texmf-dist/tex/latex/fontawesome5/fontawesome5-generic-helper.sty
+Package: fontawesome5-generic-helper 2022/05/02 v5.15.4 non-uTeX helper for fon
+tawesome5
 
-Enter file name: 
+(/usr/share/texmf-dist/tex/latex/fontawesome5/fontawesome5-mapping.def)))
 (/usr/share/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
-\c@tracingmulticols=\count290
-\mult@box=\box53
+\c@tracingmulticols=\count291
+\mult@box=\box54
 \multicol@leftmargin=\dimen156
-\c@unbalance=\count291
-\c@collectmore=\count292
-\doublecol@number=\count293
-\multicoltolerance=\count294
-\multicolpretolerance=\count295
+\c@unbalance=\count292
+\c@collectmore=\count293
+\doublecol@number=\count294
+\multicoltolerance=\count295
+\multicolpretolerance=\count296
 \full@width=\dimen157
 \page@free=\dimen158
 \premulticols=\dimen159
 \postmulticols=\dimen160
 \multicolsep=\skip53
 \multicolbaselineskip=\skip54
-\partial@page=\box54
-\last@line=\box55
-\mc@boxedresult=\box56
+\partial@page=\box55
+\last@line=\box56
+\mc@boxedresult=\box57
 \maxbalancingoverflow=\dimen161
-\mult@rightbox=\box57
-\mult@grightbox=\box58
-\mult@firstbox=\box59
-\mult@gfirstbox=\box60
-\@tempa=\box61
+\mult@rightbox=\box58
+\mult@grightbox=\box59
+\mult@firstbox=\box60
+\mult@gfirstbox=\box61
 \@tempa=\box62
 \@tempa=\box63
 \@tempa=\box64
@@ -329,19 +343,20 @@ Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
 \@tempa=\box94
 \@tempa=\box95
 \@tempa=\box96
-\c@minrows=\count296
-\c@columnbadness=\count297
-\c@finalcolumnbadness=\count298
+\@tempa=\box97
+\c@minrows=\count297
+\c@columnbadness=\count298
+\c@finalcolumnbadness=\count299
 \last@try=\dimen162
 \multicolovershoot=\dimen163
 \multicolundershoot=\dimen164
-\mult@nat@firstbox=\box97
-\colbreak@box=\box98
-\mc@col@check@num=\count299
+\mult@nat@firstbox=\box98
+\colbreak@box=\box99
+\mc@col@check@num=\count300
 )
 (/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
-\ttl@box=\box99
+\ttl@box=\box100
 \beforetitleunit=\skip55
 \aftertitleunit=\skip56
 \ttl@plus=\dimen165
@@ -376,11 +391,6 @@ Package: setspace 2022/12/04 v6.7b set line spacing
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 22.
 
-(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count300
-\l__pdf_internal_box=\box100
-)
 (build/ResumeNicolasZapataAlzate.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
@@ -472,29 +482,52 @@ e
 ))
 Couldn't patch \ttl@straight@ii
 Couldn't patch \ttl@straight@ii
-<picture.jpg, id=4, 85.37265pt x 79.62027pt>
-File: picture.jpg Graphic file (type jpg)
-<use picture.jpg>
-Package pdftex.def Info: picture.jpg  used on input line 35.
-(pdftex.def)             Requested size: 85.35826pt x 79.61156pt.
+! Undefined control sequence.
+<recently read> \faLocation 
+                            
+l.51     \item  \faLocation
+                           \ \textbf{Location:} Manizales, Caldas, Colombia.
+? 
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
+nput line 52.
+(/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
+nput line 53.
 
-Overfull \hbox (2.60461pt too wide) in paragraph at lines 54--55
-[]\OT1/cmr/bx/n/10.95 Website: [][]\OT1/cmr/m/n/10.95 nicolas-zapata-portfolio.
-vercel.app[][] 
+(/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
+ input line 55.
+
+(/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd)
+LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10.95> n
+ot available
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
+n input line 55.
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands1 on
+ input line 58.
+
+(/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands1.fd)
+LaTeX Font Info:    Font shape `U/fontawesomebrands1/solid/n' in size <10.95> n
+ot available
+(Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead o
+n input line 58.
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
 
@@ -502,13 +535,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./picture.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts
+/enc/dvips/fontawesome5/fa5free2.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fon
+tawesome5/fa5free1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5b
+rands0.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc}]
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
  []
 
@@ -529,21 +561,23 @@ ed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 11741 strings out of 475109
- 184360 string characters out of 5765326
- 619290 words of memory out of 5000000
- 34618 multiletter control sequences out of 15000+600000
- 561002 words of font info for 43 fonts, out of 8000000 for 9000
+ 14921 strings out of 475109
+ 255499 string characters out of 5765326
+ 667428 words of memory out of 5000000
+ 37758 multiletter control sequences out of 15000+600000
+ 562200 words of font info for 47 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
- 75i,6n,79p,1154b,530s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmti10.pfb>
-Output written on build/ResumeNicolasZapataAlzate.pdf (3 pages, 410463 bytes).
+ 75i,5n,79p,1154b,566s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Reg
+ular.pfb></usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Fre
+e-Solid.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></
+usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmti10.pfb>
+Output written on build/ResumeNicolasZapataAlzate.pdf (3 pages, 114666 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+ 75 PDF objects out of 1000 (max. 8388607)
+ 55 compressed objects within 1 object stream
  4 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
