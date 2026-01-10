@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.9)  10 JAN 2026 09:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.9)  10 JAN 2026 10:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -482,19 +482,13 @@ e
 ))
 Couldn't patch \ttl@straight@ii
 Couldn't patch \ttl@straight@ii
-! Undefined control sequence.
-<recently read> \faLocation 
-                            
-l.51     \item  \faLocation
-                           \ \textbf{Location:} Manizales, Caldas, Colombia.
-? 
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
+nput line 51.
+(/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
 nput line 52.
-(/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 53.
 
-(/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
+(/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
  input line 55.
 
@@ -512,22 +506,22 @@ ot available
 (Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead o
 n input line 58.
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
 
@@ -536,11 +530,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--98
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts
-/enc/dvips/fontawesome5/fa5free2.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fon
-tawesome5/fa5free1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5b
+/enc/dvips/fontawesome5/fa5free1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fon
+tawesome5/fa5free2.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5b
 rands0.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc}]
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
@@ -561,10 +555,10 @@ ed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 14921 strings out of 475109
- 255499 string characters out of 5765326
+ 14920 strings out of 475109
+ 255489 string characters out of 5765326
  667428 words of memory out of 5000000
- 37758 multiletter control sequences out of 15000+600000
+ 37757 multiletter control sequences out of 15000+600000
  562200 words of font info for 47 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
  75i,5n,79p,1154b,566s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -574,7 +568,7 @@ e-Solid.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></
 usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmti10.pfb>
-Output written on build/ResumeNicolasZapataAlzate.pdf (3 pages, 114666 bytes).
+Output written on build/ResumeNicolasZapataAlzate.pdf (3 pages, 137650 bytes).
 PDF statistics:
  75 PDF objects out of 1000 (max. 8388607)
  55 compressed objects within 1 object stream
