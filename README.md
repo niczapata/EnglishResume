@@ -93,12 +93,17 @@ Professional summary highlighting expertise in Software Engineering, Linux/Windo
 - Database Fundamentals (Platzi)
 - Git & GitHub Fundamentals (Platzi)
 - JavaScript Fundamentals (Platzi)
-- Customer Care Foundation's for IT Professionals (LinkedIn)
+- Customer Service by IT Professionals (LinkedIn)
 
 ### 9. **Technical Skills**
-- **Languages:** Python, Java, Kotlin, JavaScript, SQL, HTML, CSS
-- **Frameworks/Libraries:** React, React Native, Flutter, Angular, Node.js, Bootstrap, Electron, TensorFlow, Keras, OpenCV, Pandas, NumPy, Odoo
-- **Tools/Platforms:** Android Studio, Firebase, PostgreSQL, Microsoft Azure, AWS, Odoo, Git, GitHub, NPM
+- **Programming Languages:** Java, Kotlin, C, C++, C#, JavaScript, Python, Lua, SQL, Dart, HTML, CSS, R, LaTeX
+- **Development Tools:** Cline, Android Studio, Arduino, Unity, Windsurf, Cursor, Visual Studio Code, IntelliJ IDEA, PyCharm, NeoVim, RStudio
+- **Frameworks:** React, Odoo, Vite, Next.js, Node.js, Express
+- **Databases:** MySQL, PostgreSQL, SQLite, MongoDB, Firebase
+- **Mobile Development:** React Native, Flutter, Ionic, Android Studio
+- **Collaboration Tools:** Notion, Trello, Jira, Figma, Git, GitHub, Docker, GitLab, BitBucket, Microservicios, Azure, ChatGPT, DeepSeek, Prompt Engineering, Antropic Claude
+- **Operating Systems:** Arch Linux, Ubuntu, Linux Mint, Manjaro, Kali Linux
+- **Artificial Intelligence:** Pandas, Numpy, Scikit-learn, Tensorflow, PyTorch, OpenCV, Keras, Matplotlib
 - **Soft Skills:** Creativity, Critical Thinking, Teamwork, Communication, Self-Investigation
 
 ### 10. **Achievements**
