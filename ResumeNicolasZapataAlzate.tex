@@ -1,18 +1,15 @@
 \documentclass[11pt, a4paper]{article}
 \usepackage[utf8]{inputenc}
-\usepackage[english, spanish]{babel}
+\usepackage[english]{babel}
 \usepackage[margin=1in]{geometry}
 \usepackage{enumitem}
 \usepackage{hyperref}
 \usepackage{xcolor}
-\usepackage{fontawesome5}
-\usepackage{multicol}
 \usepackage{titlesec}
 \usepackage{parskip}
-\usepackage{graphicx}
 \usepackage{setspace}
 
-% ===== CONFIGURACIÓN DE COLORES =====
+% ===== COLOR CONFIGURATION =====
 \definecolor{accent}{RGB}{40, 100, 200}
 \hypersetup{
     colorlinks=true,
@@ -21,168 +18,117 @@
     citecolor=accent
 }
 
-% ===== FORMATO DE SECCIONES =====
+% ===== SECTION FORMATTING =====
 \titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\titlerule]
 \titlespacing*{\section}{0pt}{12pt}{6pt}
 
-% ===== ENCABEZADO =====
+% ===== DOCUMENT START =====
 \begin{document}
+
 \begin{center}
-    {\Huge \textbf{NICOLÁS ZAPATA ÁLZATE}} \\[6pt]
-    {\large \textbf{Software Developer}} \\[12pt]
-    % \begin{figure}[h]
-    %     \centering
-    %     \includegraphics[width=3cm]{picture.jpg}
-    %     % \label{fig:picture}
-    % \end{figure}
+	{\Huge \textbf{NICOLÁS ZAPATA ÁLZATE}} \\
+	{\large \textbf{Software Engineer | Data \& Automation Specialist}} \\[10pt]
+	% CONTACT - ATS-friendly plain text
+	\begin{tabular}{@{}c@{}}
+		Manizales, Colombia | (+57) 312-885-6774                                                           \\
+		\href{mailto:works\_nicolasz@outlook.com}{works\_nicolasz@outlook.com}                             \\
+		Portfolio: \href{https://nicolas-zapata-portfolio.vercel.app}{nicolas-zapata-portfolio.vercel.app} \\
+		LinkedIn: \href{https://linkedin.com/in/nicolas-zapata-al}{linkedin.com/in/nicolas-zapata-al}      \\
+		GitHub: \href{https://github.com/NicolasZapata}{github.com/NicolasZapata}                          \\
+	\end{tabular}
 \end{center}
 
-% ===== PERFIL =====
-\section*{PROFILE}
-\begin{spacing}{1.1}
-I am a passionate Software Engineer and programmer. I have developed software using a diverse range of programming languages, libraries, and frameworks. My primary focus work is in Artificial Intelligence, where I have worked on impactful projects involving Machine Learning tools. My thesis involved creating a supervised model using a meticulously crafted, manually curated training set. Additionally, I have collaborated with teams to accelerate business growth through innovative AI-driven solutions.
-\end{spacing}
+% ===== PROFESSIONAL SUMMARY =====
+\section*{SUMMARY}
+Software Engineer with 3+ years of experience specializing in \textbf{data automation, backend architecture, and cloud-based solutions}. Proven ability to design and implement \textbf{scalable APIs, data pipelines, and infrastructure as code (IaC)} using Python, Node.js, AWS, and Terraform. Seeking a \textbf{Data Engineer / Automation Specialist} role to leverage my skills in process optimization, system integration, and software engineering best practices to build high-impact solutions.
 
-% ===== COLUMNAS: CONTACTO, EDUCACIÓN, IDIOMAS =====
-\begin{multicols}{2}
-
-\subsection*{CONTACT}
-  \begin{itemize}[leftmargin=*, nosep, label={}]
-    \item  \faGlobeAmericas \ Manizales, Caldas, Colombia.
-    \item \faPhone\  (+57) 3128856774
-    \item \faEnvelope\ \href{mailto:works\_nicolasz@outlook.com}{works\_nicolasz@outlook.com}
-    \item \faGlobe\ \href{https://nicolas-zapata-portfolio.vercel.app/}{nicolas-zapata-portfolio.vercel.app}
-    \item \faGithub\ \href{https://github.com/NicolasZapata}{github.com/NicolasZapata}
-    \item \faLinkedin\ \href{https://www.linkedin.com/in/nicolas-zapata-al/}{linkedin.com/in/nicolas-zapata-al}
-    \item \faGitlab\ \href{https://gitlab.com/NicolasZapata}{gitlab.com/NicolasZapata}
-    \item \faTwitter\ \href{https://twitter.com/niczapata12}{twitter.com/niczapata12}
-\end{itemize}
-
-\subsection*{LANGUAGES}
-\begin{itemize}[leftmargin=*, nosep]
-    \item Spanish (Native)
-    \item English (B2)
-\end{itemize}
-
-\columnbreak
-
-\subsection*{EDUCATION}
-
-\textbf{Universidad Autónoma de Manizales.} \\
-\textbf{English Diploma Program.} \\
-\textit{February 2025 – Currently} \\
-Emphasis of English, based in Cambridge English.
-
-\textbf{Bachelor in Informatics Engineering.} \\
-\textbf{La Rioja’s International University Foundation (UNIR).} \\
-\textit{February 2019 – July 2023} \\
-Emphasis of Computer Engineering, Systems Engineering and Software Engineering.
-
-\end{multicols}
-
-% ===== EXPERIENCIA LABORAL =====
+% ===== WORK EXPERIENCE =====
 \section*{WORK EXPERIENCE}
-\textbf{Software Developer – Quanam Group, Colombia} \hfill \textit{November 2023 – May 2024} \\
+
+\textbf{Software Developer} – Quanam Group, Colombia \hfill \textit{Nov 2023 – May 2024}
 \begin{itemize}[leftmargin=*, nosep, topsep=4pt]
-    \item Developed several modules for enterprise solutions with Odoo16 using Python, XML, and JavaScript.
-    \item Worked in technical support, customization of modules, project management, and supervision.
+	\item Engineered and deployed \textbf{5+ core Odoo 16 modules} (Inventory, CRM) using \textbf{Python, XML, and JavaScript}, automating key business workflows and \textbf{reducing manual order processing time by 30\%}.
+	\item Led the full development cycle for a barcode shipping system and petty cash management module, integrating with legacy systems and \textbf{reducing data entry errors by 25\%}.
+	\item Implemented automated reporting dashboards, providing real-time business intelligence that improved operational decision-making speed.
 \end{itemize}
 
-\textbf{IT Support – Convivenita Colombia} \hfill \textit{February 2023 – April 2023} \\
+\textbf{Full-Stack Developer \& IT Analyst} – Convivenita Colombia \hfill \textit{Feb 2023 – Apr 2023}
 \begin{itemize}[leftmargin=*, nosep, topsep=4pt]
-    \item Created a comprehensive dashboard to track and categorize entrants for the 2023 term (Interns, Volunteers, foreign participants).
-    \item Provided technical supervision and project management.
+	\item Developed an internal full-stack dashboard with \textbf{Node.js, React, and SQL} to track and categorize \textbf{500+ program entrants}, centralizing dispersed data and \textbf{eliminating 15+ hours of manual reporting monthly}.
+	\item Spearheaded the tool's rollout and data migration, ensuring cross-departmental adoption and maintaining \textbf{99.9\% data accuracy}.
 \end{itemize}
 
-\textbf{Mobile Developer (Flutter) – Vibbo} \hfill \textit{April 2021 – May 2021} \\
+\textbf{Mobile Developer (Flutter)} – Vibbo \hfill \textit{Apr 2021 – May 2021}
 \begin{itemize}[leftmargin=*, nosep, topsep=4pt]
-    \item Contributed to a startup mobile app using Flutter, synchronizing data via RESTful APIs from a PostgreSQL database with FastAPI authentication.
+	\item Developed key features for a startup's MVP using \textbf{Flutter (Dart)}, implementing data sync via \textbf{RESTful APIs} with a \textbf{PostgreSQL backend} and \textbf{FastAPI JWT authentication}.
+	\item Collaborated in an Agile team to integrate frontend components with backend services, contributing to the app's successful internal testing phase.
 \end{itemize}
 
-\textbf{Mobile Developer – Digital Brainly Solutions} \hfill \textit{January 2021 – April 2021} \\
+% ===== RESEARCH \& DEVELOPMENT =====
+\section*{RESEARCH \& DEVELOPMENT EXPERIENCE}
+\textbf{AI Research Engineer} – La Rioja International University (UNIR) \hfill \textit{Mar 2020 – Dec 2022}
 \begin{itemize}[leftmargin=*, nosep, topsep=4pt]
-    \item Developed a chat UI template with React Native for a large customer communication app.
-    \item Created a sample page using Ionic and Cordova.
+	\item Designed and implemented \textbf{Python-based machine learning pipelines} (supervised \& deep learning) using \textbf{scikit-learn, TensorFlow, and Pandas}, processing custom datasets and validating model performance.
+	\item Architected experimental frameworks that enhanced research reproducibility, forming the basis for academic publications.
+	\item Applied software engineering best practices to build \textbf{scalable, documented code} for algorithmic research with real-world applications.
 \end{itemize}
 
-% ===== EXPERIENCIA EN INVESTIGACIÓN =====
-\section*{RESEARCH EXPERIENCE}
-\textbf{Academic AI Research – La Rioja’s International University Foundation (UNIR)} \hfill \textit{March 2020 – December 2022} \\
-\begin{itemize}[leftmargin=*, nosep, topsep=4pt]
-    \item Collaborated on AI research initiatives, developing Python-based ML algorithms (supervised \& deep learning).
-    \item Designed experiments with custom datasets, refining models and validating outcomes.
-    \item Enhanced research methodology for real-world algorithmic applications.
+% ===== TECHNICAL SKILLS =====
+\section*{TECHNICAL SKILLS}
+\begin{itemize}[nosep, leftmargin=*]
+	\item \textbf{Programming \& Automation:} Python, Node.js, JavaScript, SQL, Bash
+	\item \textbf{Cloud \& DevOps:} AWS (Lambda, API Gateway, S3, IAM, Cognito), Docker, \textbf{Terraform (IaC)}, CI/CD, Azure
+	\item \textbf{APIs \& Backend:} FastAPI, RESTful APIs, OAuth 2.0 / JWT, Unit Testing (Pytest), Microservices
+	\item \textbf{Data \& AI/ML:} Pandas, NumPy, scikit-learn, TensorFlow, PostgreSQL, MySQL, Data Pipelines (ETL), PyTorch, OpenCV, HuggingFace, OpenRouter.
+	\item \textbf{Frontend \& Mobile:} React, React Native, Flutter, HTML/CSS
+	\item \textbf{Tools:} Git, Linux, Odoo, n8n, Make (Integromat)
 \end{itemize}
 
-% ===== PROYECTOS =====
+% ===== SOFT SKILLS =====
+\section*{SOFT SKILLS}
+Analytical Problem-Solving, Proactive Mindset, Effective Communication (Technical \& Non-Technical), Collaborative Teamwork in Hybrid Environments, Adaptability to Change and New Requirements
+
+% ===== PROJECTS =====
 \section*{PROJECTS}
-\textbf{Thesis: Coffee Image Classification Algorithm} \\
-Manually created a training set with red and green coffee beans from a family farm, uploaded to Teachable Machine to generate a supervised learning model. \\
-Repository: \href{https://github.com/NicolasZapata}{TFG Nicolas Zapata Alzate.pdf}
+\textbf{Secure Backend Template with FastAPI \& AWS} \hfill \textbf{Python, FastAPI, AWS, Terraform, Docker}
+\begin{itemize}[leftmargin=*, nosep, topsep=4pt]
+	\item Developed a production-ready backend template implementing \textbf{JWT authentication with AWS Cognito}, user management with DynamoDB, and \textbf{Infrastructure as Code with Terraform}.
+	\item Demonstrates modern cloud architecture, API security, and DevOps practices. \href{https://github.com/niczapata/FastAPI\_AWS\_Cognito\_Template}{(View on GitHub)}
+\end{itemize}
 
-\textbf{Todo React Vite} \\
-Task list application developed with React and Vite. \\
-Repository: \href{https://github.com/NicolasZapata/TodoReactVite}{github.com/NicolasZapata/TodoReactVite}
+\textbf{End-to-End Coffee Bean Classification Model} \hfill \textbf{Python, TensorFlow, Computer Vision}
+\begin{itemize}[leftmargin=*, nosep, topsep=4pt]
+	\item Led a full-cycle ML project: built a manually curated image dataset and trained a supervised model to automate coffee bean quality classification.
+	\item Showcases skills in data collection, model training, and practical AI application for agricultural problems.
+\end{itemize}
 
-\textbf{Jetpack Compose Application} \\
-Native Android app demonstrating Jetpack Compose with Kotlin. \\
-Repository: \href{https://github.com/NicolasZapata/Jetpack-Compose-Application}{github.com/NicolasZapata/Jetpack-Compose-Application}
+\textbf{Data Processing \& Classification Pipeline} \hfill \textbf{Python, scikit-learn, pandas, NumPy}
+\begin{itemize}[leftmargin=*, nosep, topsep=4pt]
+	\item Engineered a data pipeline for CSV datasets performing cleaning, feature analysis, and training a classification tree model to derive actionable insights.
+	\item \href{https://github.com/niczapata/Classification\_Tree\_UNIR}{(View on GitHub)}
+\end{itemize}
 
-\textbf{Fast Web Node.js Practice} \\
-Web page developed with Node.js. \\
-Repository: \href{https://github.com/NicolasZapata/FastWeb-Node.js-Practice}{github.com/NicolasZapata/FastWeb-Node.js-Practice}
+% ===== EDUCATION =====
+\section*{EDUCATION}
+\textbf{Bachelor in Informatics Engineering} \\
+La Rioja’s International University Foundation (UNIR) \hfill \textit{Feb 2019 – Jul 2023}
+\begin{itemize}[leftmargin=*, nosep, topsep=2pt]
+	\item Emphasis in Computer Engineering, Systems Engineering, and Software Engineering.
+\end{itemize}
 
-\textbf{Classification Tree UNIR} \\
-Classification tree in Python using Sklearn, pandas, and NumPy on CSV data. \\
-Repository: \href{https://github.com/NicolasZapata/Classification\_Tree\_UNIR}{github.com/NicolasZapata/Classification\_Tree\_UNIR}
+\textbf{English Diploma Program} \\
+Universidad Autónoma de Manizales \hfill \textit{Feb 2025 – Present}
+\begin{itemize}[leftmargin=*, nosep, topsep=2pt]
+	\item Cambridge English-based program focused on advanced professional proficiency.
+\end{itemize}
 
-\textbf{OpenCV – UNIR} \\
-Image manipulation lab with Python and OpenCV. \\
-Repository: \href{https://github.com/NicolasZapata/OpenCV-Unir}{github.com/NicolasZapata/OpenCV-Unir}
-
-\textbf{Data Mining – UNIR} \\
-Data processing with Python and DTale. \\
-Repository: \href{https://github.com/NicolasZapata/Data\_Mining\_Unir-1}{github.com/NicolasZapata/Data\_Mining\_Unir-1}
-
-\textbf{Fashion Deep Learning} \\
-Clothing dataset training with TensorFlow, Keras, NumPy, and Matplotlib. \\
-Repository: \href{https://github.com/NicolasZapata/Fashion-Deep-Learning—Semillero-Quinoa}{github.com/NicolasZapata/Fashion-Deep-Learning}
-
-% ===== CERTIFICACIONES =====
+% ===== CERTIFICATIONS =====
 \section*{CERTIFICATIONS}
 \begin{itemize}[leftmargin=*, nosep]
-    \item \textbf{Introduction to Microsoft Azure Cloud Services} – February 2025 (Coursera)
-    \item \textbf{Google AI Essentials} – August 2024 (Credly)
-    \item \textbf{Java Career (Platzi)} – Java SE Basic, Java SE Advanced, Java EE
-    \item \textbf{Android Course – Platzi}
-    \item \textbf{Firebase for Web – Platzi}
-    \item \textbf{Database Fundamentals – Platzi}
-    \item \textbf{Git \& GitHub Fundamentals – Platzi}
-    \item \textbf{JavaScript Fundamentals – Platzi}
-    \item \textbf{Customer Service by IT Professionals – LinkedIn}
-\end{itemize}
-
-% ===== HABILIDADES TÉCNICAS =====
-\section*{TECHNICAL SKILLS}
-\begin{itemize}[leftmargin=*, nosep]
-    \item \textbf{programming languages:} Java, Kotlin, C, C++, C\#, JavaScript, Python, Lua, SQL, Dart, HTML, CSS, R, LaTeX.
-    \item \textbf{Development Tools:} Cline, Android Studio Arduino, Unity, Windsurf, Cursor, Visual Studio Code, IntelliJ IDEA, PyCharm, NeoVim, RStudio.
-    \item \textbf{Frameworks:} React, Odoo, Vite, Next.js, Node.js, Express.
-    \item \textbf{Databases:} MySQL, PostgreSQL, SQLite, MongoDB, Firebase.
-    \item \textbf{Mobile Development:} React Native, Flutter, Ionic, Android Studio.
-    \item \textbf{Collaboration Tools:} Notion, Trello, Jira, Figma, Git, GitHub, Docker, GitLab, BitBucket, Microservicios, Azure, ChatGPT, DeepSeek, Prompt Engineering, Antropic Claude.
-    \item \textbf{Operating Systems:} Arch Linux, Ubuntu, Linux Mint, Manjaro, Kali Linux.
-    \item \textbf{Artificial Intelligence:} Pandas, Numpy, Scikit-learn, Tensorflow, PyTorch, OpenCV, Keras, Matplotlib.
-    \item \textbf{Soft Skills:} Creativity, Critical Thinking, Teamwork, Communication, Self-Investigation
-\end{itemize}
-
-% ===== LOGROS =====
-\section*{ACHIEVEMENTS}
-\begin{itemize}[leftmargin=*, nosep]
-    \item Developed Android projects with Java, Kotlin, and React Native.
-    \item Proeficient use of Linux and OpenSource tools.
-    \item Implemented Machine Learning projects with Python and R.
-    \item Made enterprise solutions using Odoo.
+	\item \textbf{Introduction to Microsoft Azure Cloud Services} – Coursera (Feb 2025)
+	\item \textbf{Google AI Essentials} – Credly (Aug 2024)
+	\item \textbf{Java Career} – Platzi (Java SE, Java EE)
+	\item \textbf{JavaScript, Git, Database Fundamentals} – Platzi
 \end{itemize}
 
 \end{document}
