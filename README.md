@@ -1,6 +1,6 @@
 # Nicolás Zapata Alzate - Resume
 
-A professionally designed resume template built with LaTeX, showcasing the profile, work experience, and technical skills of Nicolás Zapata Alzate, a Software Developer specializing in AI, Machine Learning, and various programming frameworks.
+A professionally designed resume built with LaTeX, showcasing the profile, work experience, research, projects, and technical skills of **Nicolás Zapata Alzate**, a Software Engineer specializing in Data Automation, Backend Architecture, and Cloud-based Solutions.
 
 ## Overview
 
@@ -8,128 +8,100 @@ This resume is a LaTeX document that provides a comprehensive overview of profes
 
 ## Features
 
-- **Professional Layout**: Clean, modern design with accent color scheme (RGB: 40, 100, 200)
-- **Multilingual Support**: Configured for English and Spanish using babel
+- **Professional Layout**: Clean, minimal design with accent color scheme (RGB: 40, 100, 200)
+- **ATS-Friendly**: Plain text contact information compatible with applicant tracking systems
 - **Hyperlinked Content**: All URLs, emails, and social media links are clickable
-- **Multi-column Layout**: Efficient use of space for contact information and education
-- **Responsive Section Formatting**: Custom section titles with rule separators
-- **Professional Photo Integration**: Includes profile picture in header
+- **Custom Section Formatting**: Section titles with rule separators and accent coloring
 
 ## File Structure
 
 ```
 .
 ├── README.md                                  # Project documentation
-├── picture.jpg                                # Profile photo (328 KB)
-├── ResumeNicolasZapataAlzate.tex             # LaTeX source file
+├── ResumeNicolasZapataAlzate.tex              # LaTeX source file
 └── build/                                     # Output directory
-    ├── ResumeNicolasZapataAlzate.aux         # LaTeX auxiliary file
-    ├── ResumeNicolasZapataAlzate.log         # Compilation log
-    ├── ResumeNicolasZapataAlzate.out         # Hyperref output file
-    └── ResumeNicolasZapataAlzate.pdf         # Generated PDF (410 KB)
+    ├── ResumeNicolasZapataAlzate.aux          # LaTeX auxiliary file
+    ├── ResumeNicolasZapataAlzate.log          # Compilation log
+    ├── ResumeNicolasZapataAlzate.out          # Hyperref output file
+    └── ResumeNicolasZapataAlzate.pdf          # Generated PDF
 ```
 
 ## Contents
 
 The resume includes the following sections:
 
-### 1. **Profile**
-Professional summary highlighting expertise in Software Engineering, Linux/Windows environments, and AI/ML projects.
-
-### 2. **Contact Information**
-- Location: Manizales, Caldas, Colombia
-- Phone: +57 3128856774
+### 1. **Contact**
+- Location: Manizales, Colombia
+- Phone: (+57) 312-885-6774
 - Email: works_nicolasz@outlook.com
-- Website: nicolas-zapata-portfolio.vercel.app
-- GitHub: github.com/NicolasZapata
+- Portfolio: nicolas-zapata-portfolio.vercel.app
 - LinkedIn: linkedin.com/in/nicolas-zapata-al
-- Twitter: twitter.com/niczapata12
+- GitHub: github.com/NicolasZapata
 
-### 3. **Education**
-- Bachelor in Informatics Engineering (2019-2023)
-- La Rioja's International University Foundation (UNIR)
-- Emphasis on Computer Engineering, Systems Engineering, and Software Engineering
+### 2. **Summary**
+Software Engineer with 3+ years of experience in data automation, backend architecture, and cloud-based solutions (Python, Node.js, AWS, Terraform).
 
-### 4. **Languages**
-- Spanish (Native)
-- English (B2)
+### 3. **Work Experience**
+- **Software Developer** — Quanam Group, Colombia (Nov 2023 – May 2024)
+  - Odoo 16 module development (Inventory, CRM) with Python, XML, JavaScript
+  - Barcode shipping system and petty cash management module
+  - Automated reporting dashboards
 
-### 5. **Work Experience**
-- **Software Developer** - Quanam Group, Colombia (Nov 2023 - May 2024)
-  - Odoo16 development with Python, XML, and JavaScript
-  - Technical support, module customization, and project management
+- **Full-Stack Developer & IT Analyst** — Conviventia Colombia (Feb 2023 – Apr 2023)
+  - Internal dashboard with Node.js, React, and SQL
+  - Data migration and cross-departmental rollout
 
-- **IT Support** - Convivenita Colombia (Feb 2023 - Apr 2023)
-  - Dashboard development for tracking entrants
-  - Technical supervision and project management
+- **Mobile Developer (Flutter)** — Vibbo (Apr 2021 – May 2021)
+  - Startup MVP features with Flutter (Dart), RESTful APIs, PostgreSQL, FastAPI JWT
 
-- **Mobile Developer (Flutter)** - Vibbo (Apr 2021 - May 2021)
-  - Flutter mobile app with RESTful APIs and PostgreSQL
+### 4. **Research & Development**
+- **AI Research Engineer** — UNIR (Mar 2020 – Dec 2022)
+  - Python-based ML pipelines (scikit-learn, TensorFlow, Pandas)
+  - Experimental frameworks for research reproducibility
+  - Scalable, documented code for algorithmic research
 
-- **Mobile Developer** - Digital Brainly Solutions (Jan 2021 - Apr 2021)
-  - React Native chat UI and Ionic/Cordova sample pages
+### 5. **Technical Skills**
+- **Programming & Automation:** Python, Node.js, JavaScript, SQL, Bash
+- **Cloud & DevOps:** AWS (Lambda, API Gateway, S3, IAM, Cognito), Docker, CI/CD, Azure
+- **APIs & Backend:** FastAPI, RESTful APIs, OAuth 2.0 / JWT, Unit Testing (Pytest), Microservices
+- **Data & AI/ML:** Pandas, NumPy, scikit-learn, TensorFlow, PostgreSQL, MySQL, Data Pipelines (ETL), PyTorch, OpenCV, HuggingFace, OpenRouter
+- **Frontend & Mobile:** React, React Native, Flutter, HTML/CSS
+- **Tools:** Git, Linux, Odoo
 
-### 6. **Research Experience**
-- **Academic AI Research** - UNIR (Mar 2020 - Dec 2022)
-  - Python-based ML algorithms (supervised & deep learning)
-  - Custom dataset design and model validation
+### 6. **Soft Skills**
+Analytical Problem-Solving, Proactive Mindset, Effective Communication, Collaborative Teamwork, Adaptability
 
 ### 7. **Projects**
-- Coffee Image Classification Algorithm (Thesis)
-- Todo React Vite
-- Jetpack Compose Application
-- Fast Web Node.js Practice
-- Classification Tree UNIR
-- OpenCV – UNIR
-- Data Mining – UNIR
-- Fashion Deep Learning
+- End-to-End Coffee Bean Classification Model (Python, TensorFlow, Computer Vision)
+- Data Processing & Classification Pipeline (Python, scikit-learn, pandas, NumPy)
 
-### 8. **Certifications**
-- Introduction to Microsoft Azure Cloud Services (Coursera)
-- Google AI Essentials (Credly)
-- Java Career (Platzi)
-- Android Course (Platzi)
-- Firebase for Web (Platzi)
-- Database Fundamentals (Platzi)
-- Git & GitHub Fundamentals (Platzi)
-- JavaScript Fundamentals (Platzi)
-- Customer Service by IT Professionals (LinkedIn)
+### 8. **Education**
+- **Bachelor in Informatics Engineering** — UNIR (Feb 2019 – Jul 2023)
+- **English Diploma Program** — Universidad Autónoma de Manizales (Feb 2025 – Present)
 
-### 9. **Technical Skills**
-- **Programming Languages:** Java, Kotlin, C, C++, C#, JavaScript, Python, Lua, SQL, Dart, HTML, CSS, R, LaTeX
-- **Development Tools:** Cline, Android Studio, Arduino, Unity, Windsurf, Cursor, Visual Studio Code, IntelliJ IDEA, PyCharm, NeoVim, RStudio
-- **Frameworks:** React, Odoo, Vite, Next.js, Node.js, Express
-- **Databases:** MySQL, PostgreSQL, SQLite, MongoDB, Firebase
-- **Mobile Development:** React Native, Flutter, Ionic, Android Studio
-- **Collaboration Tools:** Notion, Trello, Jira, Figma, Git, GitHub, Docker, GitLab, BitBucket, Microservicios, Azure, ChatGPT, DeepSeek, Prompt Engineering, Antropic Claude
-- **Operating Systems:** Arch Linux, Ubuntu, Linux Mint, Manjaro, Kali Linux
-- **Artificial Intelligence:** Pandas, Numpy, Scikit-learn, Tensorflow, PyTorch, OpenCV, Keras, Matplotlib
-- **Soft Skills:** Creativity, Critical Thinking, Teamwork, Communication, Self-Investigation
-
-### 10. **Achievements**
-- Android development (Java, Kotlin, React Native)
-- Machine Learning implementation (Python and R)
-- Enterprise solutions (Odoo, Azure, AWS)
+### 9. **Certifications**
+- Introduction to Microsoft Azure Cloud Services — Coursera (Feb 2025)
+- Google AI Essentials — Coursera (Aug 2024)
+- Java Career (Java SE, Java EE) — Platzi
+- JavaScript, Git, Database Fundamentals — Platzi
 
 ## Dependencies
 
 The resume uses the following LaTeX packages:
 
-- `babel` - Multilingual support (English/Spanish)
-- `geometry` - Page margins configuration
-- `enumitem` - List formatting
-- `hyperref` - Hyperlink support
-- `xcolor` - Color definitions
-- `fontawesome5` - Icon support
-- `multicol` - Multi-column layout
-- `titlesec` - Section title formatting
-- `parskip` - Paragraph spacing
-- `graphicx` - Image inclusion
-- `setspace` - Line spacing
+- `inputenc` — UTF-8 encoding
+- `babel` — English language support
+- `geometry` — Page margins configuration
+- `enumitem` — List formatting
+- `hyperref` — Hyperlink support
+- `xcolor` — Color definitions
+- `titlesec` — Section title formatting
+- `parskip` — Paragraph spacing
+- `setspace` — Line spacing
 
 ## Compilation
 
-To compile the LaTeX source file into a PDF, use one of the following commands:
+To compile the LaTeX source file into a PDF:
 
 ### Using pdflatex
 ```bash
@@ -142,13 +114,7 @@ pdflatex ResumeNicolasZapataAlzate.tex
 latexmk -pdf ResumeNicolasZapataAlzate.tex
 ```
 
-### Using xelatex
-```bash
-xelatex ResumeNicolasZapataAlzate.tex
-xelatex ResumeNicolasZapataAlzate.tex
-```
-
-**Note**: Compile twice to ensure all references and hyperlinks are correctly resolved.
+**Note**: Compile twice to ensure all hyperlinks are correctly resolved.
 
 ## Customization
 
@@ -164,16 +130,12 @@ Adjust page margins in the geometry package:
 \usepackage[margin=1in]{geometry}
 ```
 
-### Photo
-Replace `picture.jpg` with your own photo. Ensure it's approximately 3cm wide for optimal fit.
-
 ## Output
 
-The compiled PDF is generated in the `build/` directory with the following specifications:
+The compiled PDF has the following specifications:
 - Paper size: A4
 - Font size: 11pt
 - Color scheme: Professional blue accents
-- File size: ~410 KB
 
 ## License
 
